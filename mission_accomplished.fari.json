@@ -1,12 +1,12 @@
 {
     "id": "2a03f888-7adb-488e-8353-8a1dabc028bd",
     "name": "",
-    "lastUpdated": 1648825531,
+    "lastUpdated": 1648828757,
     "wide": true,
     "pages": [
         {
             "id": "cc214a77-74d8-454f-be76-55c1decf679d",
-            "label": "CHARACTER",
+            "label": "AGENT",
             "rows": [
                 {
                     "columns": [
@@ -89,7 +89,7 @@
                                             "id": "0bf1645f-efab-4416-b390-976983801d9c",
                                             "label": "Info Text",
                                             "type": "InfoText",
-                                            "value": "After rolling, remove any Commendation Dice that match your Citation Dice OR the GM's Anarchy Dice.",
+                                            "value": "After rolling, remove Commendation Dice that match any of your Citation Dice OR Mission Control's Anarchy Dice.",
                                             "meta": {}
                                         },
                                         {
@@ -121,7 +121,7 @@
                                                 "width": 0.33,
                                                 "helperText": "The number of rolled Commendation Dice that match the Highest Result"
                                             },
-                                            "value": "0"
+                                            "value": "3"
                                         },
                                         {
                                             "id": "0e146e23-407b-4640-8e1b-cb67ed7162a5",
@@ -132,7 +132,7 @@
                                                 "width": 0.33,
                                                 "helperText": "How many Commendation Dice remain in front of you"
                                             },
-                                            "value": "0"
+                                            "value": "4"
                                         }
                                     ],
                                     "visibleOnCard": false
@@ -146,7 +146,8 @@
                                             "type": "Link",
                                             "meta": {
                                                 "hasDisplayName": true,
-                                                "helperText": "Mission: Accomplished! Game Design"
+                                                "helperText": "Mission: Accomplished! Game Design",
+                                                "width": 0.5
                                             },
                                             "value": "http://www.jeffstormer.com/"
                                         },
@@ -156,7 +157,8 @@
                                             "type": "Link",
                                             "meta": {
                                                 "hasDisplayName": true,
-                                                "helperText": "Fari content"
+                                                "helperText": "Fari content",
+                                                "width": 0.5
                                             },
                                             "value": "https://github.com/cglosser/MissionAccomplished"
                                         }
